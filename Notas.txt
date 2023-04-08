@@ -18,3 +18,8 @@ Retorno de las funciones
 Ejercicios y ejemplos con cada tipo expuesto
 
 Al final de la sección, tienen el código fuente por si lo llegan a necesitar, o bien para que lo tengan como respaldo.
+
+-- buscar puerto usado mac
+Also, out of interest, if you want to see all processes running on a specific port, use:
+lsof -i :{port}
+kill -9 {pid}
